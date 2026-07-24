@@ -27,7 +27,7 @@
             "maximum": null
           },
           "package": {
-            "url": "https://github.com/Aaalice233/workflow-hub-acceptance-test/releases/download/untagged-d66d31f98936e8beff5a/acceptance-workflow-v1.12.zip",
+            "url": "https://github.com/Aaalice233/workflow-hub-acceptance-test/releases/download/acceptance-workflow-v1.12/acceptance-workflow-v1.12.zip",
             "size": 562,
             "sha256": "19ca27fb7ccd6fae3bb8c5fc8b2fc4f6ca459082c290bb51249207e8a8a496ec"
           },
@@ -45,7 +45,7 @@
             "maximum": null
           },
           "package": {
-            "url": "https://github.com/Aaalice233/workflow-hub-acceptance-test/releases/download/untagged-3550d1fc1c064498609d/acceptance-workflow-v1.12.1.zip",
+            "url": "https://github.com/Aaalice233/workflow-hub-acceptance-test/releases/download/acceptance-workflow-v1.12.1/acceptance-workflow-v1.12.1.zip",
             "size": 608,
             "sha256": "faa1aaed00f2a2284c3ce0ab53fe53210662e5f38ed50ccde8e5c3f6f4ddf30c"
           },

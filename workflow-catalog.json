@@ -16,6 +16,10 @@
         "workflow-hub"
       ],
       "archived": false,
+      "cover": {
+        "url": "https://raw.githubusercontent.com/Aaalice233/workflow-hub-acceptance-test/main/assets/acceptance-workflow-cover.jpg",
+        "sha256": "67b0dddf81241123b5c3638a61e3a4385ea9822b0131c795e5a3d53cf1e5726d"
+      },
       "versions": [
         {
           "version": "1.12",

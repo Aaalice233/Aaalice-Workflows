@@ -34,6 +34,24 @@
           "preview": null,
           "custom_nodes": [],
           "models": []
+        },
+        {
+          "version": "1.12.1",
+          "published_at": "2026-07-24T07:06:27.654108Z",
+          "release_tag": "acceptance-workflow-v1.12.1",
+          "changelog": "验证补丁版本发布与旧版本并存。",
+          "comfyui": {
+            "minimum": "0.28.3",
+            "maximum": null
+          },
+          "package": {
+            "url": "https://github.com/Aaalice233/workflow-hub-acceptance-test/releases/download/untagged-3550d1fc1c064498609d/acceptance-workflow-v1.12.1.zip",
+            "size": 608,
+            "sha256": "faa1aaed00f2a2284c3ce0ab53fe53210662e5f38ed50ccde8e5c3f6f4ddf30c"
+          },
+          "preview": null,
+          "custom_nodes": [],
+          "models": []
         }
       ]
     }

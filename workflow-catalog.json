@@ -15,7 +15,7 @@
         "acceptance",
         "workflow-hub"
       ],
-      "archived": false,
+      "archived": true,
       "versions": [
         {
           "version": "1.12",

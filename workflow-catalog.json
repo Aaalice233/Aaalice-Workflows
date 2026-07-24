@@ -5,5 +5,37 @@
     "author": "Aaalice233",
     "description": "ComfyUI Workflow Hub 1.0 acceptance repository"
   },
-  "workflows": []
+  "workflows": [
+    {
+      "id": "acceptance-workflow",
+      "name": "Workflow Hub 验收工作流",
+      "summary": "用于验证订阅、发布和版本保留的公开测试工作流。",
+      "description": "由 ComfyUI Workflow Hub 1.0 正式验收流程发布。",
+      "tags": [
+        "acceptance",
+        "workflow-hub"
+      ],
+      "archived": false,
+      "versions": [
+        {
+          "version": "1.12",
+          "published_at": "2026-07-24T07:00:41.688850Z",
+          "release_tag": "acceptance-workflow-v1.12",
+          "changelog": "首次正式验收发布。",
+          "comfyui": {
+            "minimum": "0.28.3",
+            "maximum": null
+          },
+          "package": {
+            "url": "https://github.com/Aaalice233/workflow-hub-acceptance-test/releases/download/untagged-d66d31f98936e8beff5a/acceptance-workflow-v1.12.zip",
+            "size": 562,
+            "sha256": "19ca27fb7ccd6fae3bb8c5fc8b2fc4f6ca459082c290bb51249207e8a8a496ec"
+          },
+          "preview": null,
+          "custom_nodes": [],
+          "models": []
+        }
+      ]
+    }
+  ]
 }

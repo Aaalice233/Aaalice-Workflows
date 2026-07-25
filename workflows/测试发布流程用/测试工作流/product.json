@@ -1,0 +1,62 @@
+{
+  "schema_version": 1,
+  "id": "workflow-13u6e02",
+  "name": "测试工作流",
+  "category": "测试发布流程用",
+  "summary": "",
+  "description": "",
+  "tags": [],
+  "archived": false,
+  "cover": null,
+  "versions": [
+    {
+      "version": "1.0",
+      "published_at": "2026-07-25T09:29:54.009000Z",
+      "release_tag": "workflow-13u6e02-v1.0",
+      "changelog": "## 语言与依据\n\n- 面向用户的内容优先使用简体中文；代码、命令、路径、配置项、API 和专有名词保持原样。\n- 优先依据代码、日志、配置、项目结构和官方文档判断，不凭印象猜测。\n- 信息可能过时、有歧义或影响较大时，先检索验证。\n\n## 工作原则\n\n- 修改前确认真实目录结构、目标文件、调用关系和当前内容。\n- 仅修改任务直接涉及的内容，保持现有风格、结构、命名和模块边界。\n- 优先复用已有模块与约定，不为单次需求新增通用抽象。\n- 工作区已有改动默认属于用户，不回滚、覆盖、清理或格式化无关内容。\n- 不确定事项优先通过只读检查确认；不同选择会显著影响结果时再提问。\n- 修改后运行与风险匹配的最小范围验证，并如实报告结果。\n\n## PowerShell 与路径\n\n- 默认使用 PowerShell 7+（`pwsh`）；除非明确要求，不使用 `cmd.exe` 或旧版 `powershell.exe`。\n- 多行 PowerShell 命令以此开头：\n\n  ```powershell\n  $ErrorActionPreference = 'Stop'\n  ```\n\n- 文件读写显式指定 `-Encoding UTF8`，但不得用它重写编码或换行敏感文件。\n- 数据处理优先使用 PowerShell 对象管道，不混用其他 Shell 语法。\n- 路径优先使用 `/`，例如 `C:/Users/...`；仅在程序明确要求时使用 `\\`。\n- 含空格路径必须加引号；路径不确定时先检查。\n- 临时文件优先放在项目内明确目录。",
+      "comfyui": {
+        "minimum": "0.28.3",
+        "maximum": "0.28.3"
+      },
+      "package": {
+        "url": "https://github.com/Aaalice233/Aaalice-Workflows/releases/download/workflow-13u6e02-v1.0/%E6%B5%8B%E8%AF%95%E5%B7%A5%E4%BD%9C%E6%B5%81-v1.0.zip",
+        "size": 108656,
+        "sha256": "1f147f2865febd1a25b9750a293340dee38a68fd7f357df83ab5790486f685b4"
+      },
+      "preview": null,
+      "custom_nodes": [
+        {
+          "registry_id": "comfyui-aaalice-nodes",
+          "name": "ComfyUI-Aaalice-Nodes",
+          "version": null,
+          "required": true,
+          "manual": false,
+          "source_url": "https://github.com/Aaalice233/ComfyUI-Aaalice-Nodes"
+        }
+      ],
+      "inputs": [
+        {
+          "source": "233.jpg",
+          "archive": "inputs/eba7ec55ded2-233.jpg",
+          "size": 37051,
+          "sha256": "eba7ec55ded2455fe63cdc56b1329d1e409256aec9576f611b2fcc9aa3503eaf",
+          "node_ids": [
+            "147"
+          ]
+        },
+        {
+          "source": "Neuro3.jpg",
+          "archive": "inputs/75328d2e75f8-Neuro3.jpg",
+          "size": 69569,
+          "sha256": "75328d2e75f8fd8e492cbb55c13a08053f38a681ce68c62b0c2cdd145dd48aec",
+          "node_ids": [
+            "146"
+          ]
+        }
+      ],
+      "models": [],
+      "repository_path": "workflows/测试发布流程用/测试工作流/versions/v1.0"
+    }
+  ],
+  "repository_path": "workflows/测试发布流程用/测试工作流"
+}

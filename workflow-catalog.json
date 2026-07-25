@@ -9,6 +9,7 @@
     {
       "id": "acceptance-workflow",
       "name": "Workflow Hub 验收工作流",
+      "category": "",
       "summary": "用于验证订阅、发布和版本保留的公开测试工作流。",
       "description": "由 ComfyUI Workflow Hub 1.0 正式验收流程发布。",
       "tags": [
@@ -37,6 +38,7 @@
           },
           "preview": null,
           "custom_nodes": [],
+          "inputs": [],
           "models": []
         },
         {
@@ -55,6 +57,66 @@
           },
           "preview": null,
           "custom_nodes": [],
+          "inputs": [],
+          "models": []
+        }
+      ]
+    },
+    {
+      "id": "workflow-88ol7b",
+      "name": "测试工作流",
+      "category": "测试系列",
+      "summary": "",
+      "description": "",
+      "tags": [],
+      "archived": false,
+      "cover": null,
+      "versions": [
+        {
+          "version": "1.0",
+          "published_at": "2026-07-25T08:15:46.652000Z",
+          "release_tag": "workflow-88ol7b-v1.0",
+          "changelog": "# 测试1\n测试测试外地啊；我的骄傲；我觉得是；挨打；我觉得；撒\n# 测试2\n阿瓦达地方上次实打实的亲爱的",
+          "comfyui": {
+            "minimum": "0.28.3",
+            "maximum": "0.28.3"
+          },
+          "package": {
+            "url": "https://github.com/Aaalice233/workflow-hub-acceptance-test/releases/download/workflow-88ol7b-v1.0/workflow-88ol7b-v1.0.zip",
+            "size": 107794,
+            "sha256": "b0d22541740aee9b15d839becd22980fc782ef7c68409d0412d7d86b1bdae368"
+          },
+          "preview": null,
+          "custom_nodes": [
+            {
+              "registry_id": "comfyui-aaalice-nodes",
+              "name": "ComfyUI-Aaalice-Nodes",
+              "version": null,
+              "required": true,
+              "manual": false,
+              "source_url": "https://github.com/Aaalice233/ComfyUI-Aaalice-Nodes"
+            }
+          ],
+          "inputs": [
+            {
+              "source": "233.jpg",
+              "archive": "inputs/eba7ec55ded2-233.jpg",
+              "size": 37051,
+              "sha256": "eba7ec55ded2455fe63cdc56b1329d1e409256aec9576f611b2fcc9aa3503eaf",
+              "node_ids": [
+                "147"
+              ]
+            },
+            {
+              "source": "Neuro3.jpg",
+              "archive": "inputs/75328d2e75f8-Neuro3.jpg",
+              "size": 69569,
+              "sha256": "75328d2e75f8fd8e492cbb55c13a08053f38a681ce68c62b0c2cdd145dd48aec",
+              "node_ids": [
+                "146"
+              ]
+            }
+          ],
           "models": []
         }
       ]

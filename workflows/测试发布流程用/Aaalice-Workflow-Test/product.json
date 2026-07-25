@@ -1,0 +1,59 @@
+{
+  "schema_version": 1,
+  "id": "aaalice-workflow-test-1q9pkl9",
+  "name": "Aaalice-Workflow-Test",
+  "category": "测试发布流程用",
+  "summary": "",
+  "description": "",
+  "tags": [],
+  "archived": false,
+  "cover": {
+    "url": "https://github.com/Aaalice233/Aaalice-Workflows/releases/download/aaalice-workflow-test-1q9pkl9-v1.0/aaalice-workflow-test-1q9pkl9-v1.0-cover.jpg",
+    "sha256": "67b0dddf81241123b5c3638a61e3a4385ea9822b0131c795e5a3d53cf1e5726d"
+  },
+  "versions": [
+    {
+      "version": "1.0",
+      "published_at": "2026-07-25T13:04:36.832000Z",
+      "release_tag": "aaalice-workflow-test-1q9pkl9-v1.0",
+      "changelog": "这次找到真正的原因了。上次我修的 .publish-wizard label 其实是死代码——发布界面重构成三阶段\n 控制台后，DOM 里已经没有 .publish-wizard，实际生效的是另一条同样会把 label 变 grid 的规则\n .publish-console-shell label（style.css:1954）。\n\n 已修改：\n\n 1. .publish-console-shell label → .publish-console-shell label:not(.cover-picker)，封面按\n    钮恢复自己的 flex 横向布局；\n 2. 顺手删掉了两条已无 DOM 对应的 .publish-wizard 死规则。\n\n 前端测试 9 个通过，生产构建完成，已确认打包产物里只剩 :not(.cover-picker) 版本、没有其他规\n 则能再把它压成竖排。\n\n 静态文件直接从磁盘读取，不用重启 ComfyUI，在页面里 Ctrl+F5 强制刷新一下就能看到图标和文字\n 并排了。确认显示正常后我再帮你提交这次修复。",
+      "comfyui": {
+        "minimum": "0.28.3",
+        "maximum": "0.28.3"
+      },
+      "package": {
+        "url": "https://github.com/Aaalice233/Aaalice-Workflows/releases/download/aaalice-workflow-test-1q9pkl9-v1.0/Aaalice-Workflow-Test-v1.0.zip",
+        "size": 31347648,
+        "sha256": "de6d121171ce3598bd0cdfc0b028dae07d8b9e01c1b2640abb3f96c111e8bb26"
+      },
+      "preview": {
+        "url": "https://github.com/Aaalice233/Aaalice-Workflows/releases/download/aaalice-workflow-test-1q9pkl9-v1.0/aaalice-workflow-test-1q9pkl9-v1.0-cover.jpg",
+        "sha256": "67b0dddf81241123b5c3638a61e3a4385ea9822b0131c795e5a3d53cf1e5726d"
+      },
+      "custom_nodes": [],
+      "inputs": [
+        {
+          "source": "141001862_p0.png",
+          "archive": "inputs/fbe0d3064630-141001862_p0.png",
+          "size": 30904526,
+          "sha256": "fbe0d3064630f18a73e2c3ab412f24a168fda2d632b913a4ff178c87cc0a5672",
+          "node_ids": [
+            "93"
+          ]
+        },
+        {
+          "source": "54f078672cb5370cf7305aa6c7ad0921.jpg",
+          "archive": "inputs/67b0dddf8124-54f078672cb5370cf7305aa6c7ad0921.jpg",
+          "size": 217480,
+          "sha256": "67b0dddf81241123b5c3638a61e3a4385ea9822b0131c795e5a3d53cf1e5726d",
+          "node_ids": [
+            "92"
+          ]
+        }
+      ],
+      "models": [],
+      "repository_path": "workflows/测试发布流程用/Aaalice-Workflow-Test/versions/v1.0"
+    }
+  ],
+  "repository_path": "workflows/测试发布流程用/Aaalice-Workflow-Test"
+}

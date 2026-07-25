@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "workflow_id": "aaalice-workflow-test-1q9pkl9",
+  "name": "Aaalice-Workflow-Test",
+  "version": "1.0",
+  "custom_nodes": [],
+  "models": [],
+  "inputs": [
+    {
+      "source": "141001862_p0.png",
+      "archive": "inputs/fbe0d3064630-141001862_p0.png",
+      "sha256": "fbe0d3064630f18a73e2c3ab412f24a168fda2d632b913a4ff178c87cc0a5672",
+      "size": 30904526,
+      "node_ids": [
+        "93"
+      ]
+    },
+    {
+      "source": "54f078672cb5370cf7305aa6c7ad0921.jpg",
+      "archive": "inputs/67b0dddf8124-54f078672cb5370cf7305aa6c7ad0921.jpg",
+      "sha256": "67b0dddf81241123b5c3638a61e3a4385ea9822b0131c795e5a3d53cf1e5726d",
+      "size": 217480,
+      "node_ids": [
+        "92"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,236 @@
+{
+  "schema_version": 1,
+  "id": "aaalice-workflow-1gu7uek",
+  "name": "Aaalice_Workflow",
+  "category": "文生图",
+  "summary": "",
+  "description": "",
+  "tags": [],
+  "archived": false,
+  "cover": {
+    "url": "https://github.com/Aaalice233/Aaalice-Workflows/releases/download/aaalice-workflow-1gu7uek-v0.1/aaalice-workflow-1gu7uek-v0.1-cover.jpg",
+    "sha256": "8ed029f5dfcc75708a569c77ff6d119a5b8ed7d32815f7ad0793f43b7aa63a36"
+  },
+  "versions": [
+    {
+      "version": "0.1",
+      "published_at": "2026-08-07T10:56:07.995000Z",
+      "release_tag": "aaalice-workflow-1gu7uek-v0.1",
+      "changelog": "喵？",
+      "comfyui": {
+        "minimum": "0.30.2",
+        "maximum": "0.30.2"
+      },
+      "package": {
+        "url": "https://github.com/Aaalice233/Aaalice-Workflows/releases/download/aaalice-workflow-1gu7uek-v0.1/Aaalice_Workflow-v0.1.zip",
+        "size": 768354,
+        "sha256": "98b53fb6966b96598f62c4aef02ae5620c17e2c51fca7e186db6c0f76dcddb7b"
+      },
+      "preview": {
+        "url": "https://github.com/Aaalice233/Aaalice-Workflows/releases/download/aaalice-workflow-1gu7uek-v0.1/aaalice-workflow-1gu7uek-v0.1-cover.jpg",
+        "sha256": "8ed029f5dfcc75708a569c77ff6d119a5b8ed7d32815f7ad0793f43b7aa63a36"
+      },
+      "custom_nodes": [
+        {
+          "registry_id": null,
+          "name": "cg-image-filter",
+          "version": null,
+          "commit": "694f8444e67f44d601861c5604bb3e55c35daf9d",
+          "required": true,
+          "manual": true,
+          "source_url": "https://github.com/chrisgoringe/cg-image-filter"
+        },
+        {
+          "registry_id": null,
+          "name": "ComfyUI-Aaalice-Nodes",
+          "version": null,
+          "commit": "d69cbcd1dcef39a9c36ae51827f0edb9405f5b89",
+          "required": true,
+          "manual": true,
+          "source_url": "https://github.com/Aaalice233/ComfyUI-Aaalice-Nodes"
+        },
+        {
+          "registry_id": null,
+          "name": "ComfyUI-Autocomplete-Aaalice",
+          "version": null,
+          "commit": "1e010d290a9a232f38ee36e46c7fa7cb66867834",
+          "required": true,
+          "manual": true,
+          "source_url": "https://github.com/Aaalice233/ComfyUI-Autocomplete-Aaalice"
+        },
+        {
+          "registry_id": null,
+          "name": "ComfyUI-GGUF",
+          "version": null,
+          "commit": "6ea2651e7df66d7585f6ffee804b20e92fb38b8a",
+          "required": true,
+          "manual": true,
+          "source_url": "https://github.com/city96/ComfyUI-GGUF"
+        },
+        {
+          "registry_id": null,
+          "name": "ComfyUI-Impact-Pack",
+          "version": null,
+          "commit": "429d0159ad429e64d2b3916e6e7be9c22d025c3c",
+          "required": true,
+          "manual": true,
+          "source_url": "https://github.com/ltdrdata/ComfyUI-Impact-Pack"
+        },
+        {
+          "registry_id": null,
+          "name": "comfyui-impact-subpack",
+          "version": null,
+          "commit": "50c7b71a6a224734cc9b21963c6d1926816a97f1",
+          "required": true,
+          "manual": true,
+          "source_url": "https://github.com/ltdrdata/ComfyUI-Impact-Subpack"
+        },
+        {
+          "registry_id": null,
+          "name": "comfyui-inpaint-cropandstitch",
+          "version": null,
+          "commit": "3617559bcb9d15ff60b24c6800701402eb2cd478",
+          "required": true,
+          "manual": true,
+          "source_url": "https://github.com/lquesada/ComfyUI-Inpaint-CropAndStitch"
+        },
+        {
+          "registry_id": null,
+          "name": "comfyui-kjnodes",
+          "version": null,
+          "commit": "35e5956193769d18a13136cdedb73a36a05c73e6",
+          "required": true,
+          "manual": true,
+          "source_url": "https://github.com/kijai/ComfyUI-KJNodes"
+        },
+        {
+          "registry_id": null,
+          "name": "comfyui-lora-manager",
+          "version": null,
+          "commit": "c11f4b5c681c50fcff8ad3e41a77c9442ec21267",
+          "required": true,
+          "manual": true,
+          "source_url": "https://github.com/willmiao/ComfyUI-Lora-Manager"
+        },
+        {
+          "registry_id": null,
+          "name": "ComfyUI-WD-Timm-Tagger",
+          "version": null,
+          "commit": "db10c8dc94143c3a75782f4e3e5d29c943ed673b",
+          "required": true,
+          "manual": true,
+          "source_url": "https://github.com/bedovyy/ComfyUI-WD-Timm-Tagger"
+        },
+        {
+          "registry_id": null,
+          "name": "comfyui_controlnet_aux",
+          "version": null,
+          "commit": "e8b689a513c3e6b63edc44066560ca5919c0576e",
+          "required": true,
+          "manual": true,
+          "source_url": "https://github.com/Fannovel16/comfyui_controlnet_aux"
+        },
+        {
+          "registry_id": null,
+          "name": "ComfyUI_Custom_Nodes_AlekPet",
+          "version": null,
+          "commit": "4cdc78a09392a46ce114a1047c4968da7e9635f8",
+          "required": true,
+          "manual": true,
+          "source_url": "https://github.com/AlekPet/ComfyUI_Custom_Nodes_AlekPet"
+        },
+        {
+          "registry_id": null,
+          "name": "ComfyUI_UltimateSDUpscale",
+          "version": null,
+          "commit": "a5547db9e1d07d3318bb21e9e9c474f4c1e9c8df",
+          "required": true,
+          "manual": true,
+          "source_url": "https://github.com/ssitu/ComfyUI_UltimateSDUpscale"
+        },
+        {
+          "registry_id": null,
+          "name": "KreaSeedVarianceEnhancer",
+          "version": null,
+          "commit": "1515d23a5b399a44ccd97482e1105a43937268ae",
+          "required": true,
+          "manual": true,
+          "source_url": "https://github.com/harukimix/KreaSeedVarianceEnhancer"
+        },
+        {
+          "registry_id": null,
+          "name": "LanPaint",
+          "version": null,
+          "commit": "c9c79988f1038bb7699cb23e1709b533bd4e582c",
+          "required": true,
+          "manual": true,
+          "source_url": "https://github.com/scraed/LanPaint"
+        },
+        {
+          "registry_id": null,
+          "name": "prompt-assistant",
+          "version": null,
+          "commit": "e0587e6d50939ae05e92922f1ed2fce008c7f622",
+          "required": true,
+          "manual": true,
+          "source_url": "https://github.com/yawiii/ComfyUI-Prompt-Assistant"
+        },
+        {
+          "registry_id": null,
+          "name": "rgthree-comfy",
+          "version": null,
+          "commit": "6b76ee6f2c5a007710b5a16f97c94330d6ecc871",
+          "required": true,
+          "manual": true,
+          "source_url": "https://github.com/rgthree/rgthree-comfy"
+        },
+        {
+          "registry_id": null,
+          "name": "SesquiLSR",
+          "version": null,
+          "commit": "befae004248c403f38b76b9f65fd43b901ea3eaa",
+          "required": true,
+          "manual": true,
+          "source_url": "https://github.com/LoganBooker/SesquiLSR"
+        }
+      ],
+      "inputs": [
+        {
+          "source": "example.png",
+          "archive": "inputs/a8e215ad32a0-example.png",
+          "size": 8589,
+          "sha256": "a8e215ad32a0052fc4190e9c5863428d5ee35cd98b246243842ba8360511b7c4",
+          "node_ids": [
+            "702",
+            "706",
+            "710",
+            "835",
+            "836",
+            "837",
+            "862",
+            "863",
+            "872",
+            "874",
+            "878",
+            "879",
+            "883",
+            "884",
+            "888",
+            "889",
+            "893",
+            "894",
+            "898",
+            "899",
+            "982",
+            "989",
+            "993",
+            "994"
+          ]
+        }
+      ],
+      "models": [],
+      "repository_path": "workflows/文生图/Aaalice_Workflow/versions/v0.1"
+    }
+  ],
+  "repository_path": "workflows/文生图/Aaalice_Workflow"
+}

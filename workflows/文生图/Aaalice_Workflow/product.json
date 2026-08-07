@@ -235,7 +235,7 @@
       "version": "0.2",
       "published_at": "2026-08-07T14:20:28.925000Z",
       "release_tag": "aaalice-workflow-1gu7uek-v0.2",
-      "changelog": "目前只有基础的文生图、画廊、反推\n其他功能等后续更新\n可能有BUG，修复之后我会推送新版本\n新版的ComfyUI-Aaalice-Nodes和旧版ComfyUI-Danbooru-Gallery可能存在一些神奇的冲突，最好卸载旧版插件（后续会通过更新插件解决）\n\n本次更新：\n补充Lora触发词管理部分",
+      "changelog": "目前只有基础的文生图、画廊、反推\n其他功能等后续更新\n可能有BUG，修复之后我会推送新版本\n新版的ComfyUI-Aaalice-Nodes和旧版ComfyUI-Danbooru-Gallery可能存在一些神奇的冲突，记得卸载旧版插件！（后续会通过更新插件解决）\n\n本次更新：\n补充Lora触发词管理部分",
       "comfyui": {
         "minimum": "0.30.2",
         "maximum": "0.30.2"

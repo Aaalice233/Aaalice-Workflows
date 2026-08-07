@@ -23,7 +23,7 @@
           "version": "0.1",
           "published_at": "2026-08-07T10:56:07.995000Z",
           "release_tag": "aaalice-workflow-1gu7uek-v0.1",
-          "changelog": "喵？",
+          "changelog": "目前只有基础的文生图、画廊、反推\n其他功能等后续更新\n可能有BUG，修复之后我会推送新版本",
           "comfyui": {
             "minimum": "0.30.2",
             "maximum": "0.30.2"

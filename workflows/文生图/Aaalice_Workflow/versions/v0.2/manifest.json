@@ -18,7 +18,7 @@
       "registry_id": null,
       "name": "ComfyUI-Aaalice-Nodes",
       "version": null,
-      "commit": "675a57e249a7b3175486228531a320dd2cafe143",
+      "commit": "5d1582fce0cb3092da671b6e113e92a863ca76d7",
       "required": true,
       "manual": true,
       "source_url": "https://github.com/Aaalice233/ComfyUI-Aaalice-Nodes"
@@ -81,7 +81,7 @@
       "registry_id": null,
       "name": "ComfyUI-Lora-Manager",
       "version": null,
-      "commit": "56acefbd6c8f78ca3df7ffe50c85fa634569e38b",
+      "commit": "4bf9a4b64063f04782be3aff5aa3c66d50737741",
       "required": true,
       "manual": true,
       "source_url": "https://github.com/willmiao/ComfyUI-Lora-Manager"

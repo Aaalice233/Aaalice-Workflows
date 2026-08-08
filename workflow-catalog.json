@@ -249,8 +249,8 @@
           },
           "package": {
             "url": "https://github.com/Aaalice233/Aaalice-Workflows/releases/download/aaalice-workflow-1gu7uek-v0.2/Aaalice_Workflow-v0.2.zip",
-            "size": 770274,
-            "sha256": "e6b3023d3a4cd0f3123fbd9bf7ac2453463b4f11acf53277fb49e3d2ad342863"
+            "size": 770273,
+            "sha256": "3e687099d8ca20ac1a7d4d77178382b2d79b3d3ad5073146b2642e4a74c98c87"
           },
           "preview": {
             "url": "https://github.com/Aaalice233/Aaalice-Workflows/releases/download/aaalice-workflow-1gu7uek-v0.2/aaalice-workflow-1gu7uek-v0.2-cover.jpg",
@@ -270,7 +270,7 @@
               "registry_id": null,
               "name": "ComfyUI-Aaalice-Nodes",
               "version": null,
-              "commit": "675a57e249a7b3175486228531a320dd2cafe143",
+              "commit": "5d1582fce0cb3092da671b6e113e92a863ca76d7",
               "required": true,
               "manual": true,
               "source_url": "https://github.com/Aaalice233/ComfyUI-Aaalice-Nodes"
@@ -333,7 +333,7 @@
               "registry_id": null,
               "name": "ComfyUI-Lora-Manager",
               "version": null,
-              "commit": "56acefbd6c8f78ca3df7ffe50c85fa634569e38b",
+              "commit": "4bf9a4b64063f04782be3aff5aa3c66d50737741",
               "required": true,
               "manual": true,
               "source_url": "https://github.com/willmiao/ComfyUI-Lora-Manager"

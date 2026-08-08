@@ -72,7 +72,7 @@
       "registry_id": null,
       "name": "comfyui-kjnodes",
       "version": null,
-      "commit": "35e5956193769d18a13136cdedb73a36a05c73e6",
+      "commit": "60cd6bc1870db94c6eeb05fbe455147a8e91c4e9",
       "required": true,
       "manual": true,
       "source_url": "https://github.com/kijai/ComfyUI-KJNodes"

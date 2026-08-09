@@ -8,8 +8,8 @@
   "tags": [],
   "archived": false,
   "cover": {
-    "url": "https://github.com/Aaalice233/Aaalice-Workflows/releases/download/aaalice-workflow-1gu7uek-v0.2/aaalice-workflow-1gu7uek-v0.2-cover.jpg",
-    "sha256": "8ed029f5dfcc75708a569c77ff6d119a5b8ed7d32815f7ad0793f43b7aa63a36"
+    "url": "https://github.com/Aaalice233/Aaalice-Workflows/releases/download/aaalice-workflow-1gu7uek-v0.4/aaalice-workflow-1gu7uek-v0.4-cover.jpg",
+    "sha256": "e7c897d93d0a0f2cd24350436f26f543e27410b813f9ed5eb3afe5ada1cafc61"
   },
   "versions": [
     {
@@ -655,6 +655,198 @@
       ],
       "models": [],
       "repository_path": "workflows/文生图/Aaalice_Workflow/versions/v0.3"
+    },
+    {
+      "version": "0.4",
+      "published_at": "2026-08-09T09:27:37.340000Z",
+      "release_tag": "aaalice-workflow-1gu7uek-v0.4",
+      "changelog": "# Aaalice Workflow v0.4 更新日志\n\n## ✨ 本次更新\n\n### 🖼️ 图像对比与默认流程\n\n- 补齐底图、双采样底图、潜空间放大、像素空间放大和 SeedVR2 放大的图像对比预览联动；开启对应处理组时，会自动联动显示相应对比结果。\n- 默认放大方案由像素空间放大切换为 **SeedVR2 放大**，开箱即用的流程更偏向稳定清晰化。\n- 图像对比依赖 **Nodes 2.0** 显示，工作流内已补充开启位置和使用提醒。\n\n### ⚙️ 默认参数调整\n\n- **潜空间放大**：默认放大倍数由 `1.5` 调整为 `1.35`，采样器由 `euler_ancestral` 调整为 `euler`，继续搭配 `simple` 调度器。\n- **SeedVR2 放大**：默认放大倍数由 `2` 调整为 `1.5`，减少过度放大带来的耗时和画面波动。\n- **默认-Krea2-Turbo-Int8** 与 **默认-Anima** 两套侧边栏预设已同步以上参数。\n\n### 📖 使用说明\n\n- 补充潜空间放大的倍数、降噪和推荐采样组合说明。\n- 更新配套插件能力介绍，补充组跳转轮盘、Booru 画廊和 Lora Manager 联动说明。\n\n## 🧩 ComfyUI 内核\n\n本版继续基于 **ComfyUI 0.31.1**，与 v0.3 的内核要求一致。\n\n## 📦 插件更新\n\n- **ComfyUI-Aaalice-Nodes** 更新至 **v0.14.4**（详见下方专项）\n- **ComfyUI-Autocomplete-Aaalice** 继续使用 **v1.13.3**，本次无变化\n- 将 **ComfyUI-Lora-Manager** 更新到最新版\n\n## 🗑️ 移除插件\n\n- **ComfyUI-VideoHelperSuite** 已不再被工作流使用，不再需要的用户可以自行卸载。\n\n## 🎨 ComfyUI-Aaalice-Nodes v0.14.2 → v0.14.4\n\n### 🖼️ Booru 画廊\n\n- 重做悬浮大图预览，集中展示分辨率、评分、收藏和标签数量等信息。\n- 标签支持分类展示与汉化，查看参考图内容更直观。\n- 进一步优化预览布局和标签数量显示。\n\n### 🎛️ 侧边栏\n\n- 组开关预设现在只保存组的启用状态，不再夹带无关参数。\n- 修复输出图像引用保存不完整的问题，重新加载工作流后不再丢失。\n- 修复切换子图后图像参数可能丢失的问题。\n- 优化规则设置弹窗的宽度和阅读体验。\n\n### 🧰 图像处理\n\n- 修复 SeedVR2 批量处理多张图片时可能出现内容串图的问题。\n\n## 🛠️ ComfyUI-Aaalice-Workflow-Hub v1.2.2（安装工具）\n\n- 加载工作流时会保留原始文件名，后续查找和管理更直观。\n- 兼容 comfyui-xiao 自带的 Git 环境，安装与更新更稳定。\n- 调整工作流中心面板高度和详情页滚动布局，长内容更容易浏览。\n- 修复更新提示与 ComfyUI 自带提示重叠的问题。\n\n建议通过 ComfyUI-Manager 或启动器把 Workflow Hub 更新到最新版，获得上述改进。\n\n## 🔤 ComfyUI-Autocomplete-Aaalice v1.13.3\n\n本次无变化，继续沿用 v0.3 使用的版本。\n\n## ⚠️ 重要提醒\n\n> 新版 ComfyUI-Aaalice-Nodes 和旧版 ComfyUI-Danbooru-Gallery 可能存在一些神奇的冲突，记得卸载旧版插件！\n\n## 💬 交流与安装\n\n- Discord 服务器：<https://discord.gg/R48n6GwXzD>\n- 安装教程（需先加入服务器）：<https://discord.com/channels/1349298998988771359/1375453996663312414/1535274403384786964>",
+      "comfyui": {
+        "minimum": "0.31.1",
+        "maximum": "0.31.1"
+      },
+      "package": {
+        "url": "https://github.com/Aaalice233/Aaalice-Workflows/releases/download/aaalice-workflow-1gu7uek-v0.4/Aaalice_Workflow-v0.4.zip",
+        "size": 1750016,
+        "sha256": "c01f5c0f61b0c3bc95005b9e94ff673a1347c4ba2905dfccc8f20086070e8bd6"
+      },
+      "preview": {
+        "url": "https://github.com/Aaalice233/Aaalice-Workflows/releases/download/aaalice-workflow-1gu7uek-v0.4/aaalice-workflow-1gu7uek-v0.4-cover.jpg",
+        "sha256": "e7c897d93d0a0f2cd24350436f26f543e27410b813f9ed5eb3afe5ada1cafc61"
+      },
+      "custom_nodes": [
+        {
+          "registry_id": null,
+          "name": "cg-image-filter",
+          "version": null,
+          "commit": "694f8444e67f44d601861c5604bb3e55c35daf9d",
+          "required": true,
+          "manual": true,
+          "source_url": "https://github.com/chrisgoringe/cg-image-filter"
+        },
+        {
+          "registry_id": null,
+          "name": "ComfyUI-Aaalice-Nodes",
+          "version": null,
+          "commit": "5ad88d062d890f9847d44315c58dd31430527ad4",
+          "required": true,
+          "manual": true,
+          "source_url": "https://github.com/Aaalice233/ComfyUI-Aaalice-Nodes"
+        },
+        {
+          "registry_id": null,
+          "name": "ComfyUI-Autocomplete-Aaalice",
+          "version": null,
+          "commit": "4065aa13dbc240e6d688faeba79ad0bb1f26d965",
+          "required": true,
+          "manual": true,
+          "source_url": "https://github.com/Aaalice233/ComfyUI-Autocomplete-Aaalice"
+        },
+        {
+          "registry_id": null,
+          "name": "ComfyUI-Impact-Pack",
+          "version": null,
+          "commit": "429d0159ad429e64d2b3916e6e7be9c22d025c3c",
+          "required": true,
+          "manual": true,
+          "source_url": "https://github.com/ltdrdata/ComfyUI-Impact-Pack"
+        },
+        {
+          "registry_id": null,
+          "name": "ComfyUI-Impact-Subpack",
+          "version": null,
+          "commit": "50c7b71a6a224734cc9b21963c6d1926816a97f1",
+          "required": true,
+          "manual": true,
+          "source_url": "https://github.com/ltdrdata/ComfyUI-Impact-Subpack"
+        },
+        {
+          "registry_id": null,
+          "name": "ComfyUI-Inpaint-CropAndStitch",
+          "version": null,
+          "commit": "3617559bcb9d15ff60b24c6800701402eb2cd478",
+          "required": true,
+          "manual": true,
+          "source_url": "https://github.com/lquesada/ComfyUI-Inpaint-CropAndStitch"
+        },
+        {
+          "registry_id": null,
+          "name": "comfyui-kjnodes",
+          "version": null,
+          "commit": "60cd6bc1870db94c6eeb05fbe455147a8e91c4e9",
+          "required": true,
+          "manual": true,
+          "source_url": "https://github.com/kijai/ComfyUI-KJNodes"
+        },
+        {
+          "registry_id": null,
+          "name": "ComfyUI-Lora-Manager",
+          "version": null,
+          "commit": "8237e5f9ea1eb07ffa23b1465d4f699742101d6d",
+          "required": true,
+          "manual": true,
+          "source_url": "https://github.com/willmiao/ComfyUI-Lora-Manager"
+        },
+        {
+          "registry_id": null,
+          "name": "ComfyUI-Prompt-Assistant",
+          "version": null,
+          "commit": "e0587e6d50939ae05e92922f1ed2fce008c7f622",
+          "required": true,
+          "manual": true,
+          "source_url": "https://github.com/yawiii/ComfyUI-Prompt-Assistant"
+        },
+        {
+          "registry_id": null,
+          "name": "ComfyUI-WD-Timm-Tagger",
+          "version": null,
+          "commit": "db10c8dc94143c3a75782f4e3e5d29c943ed673b",
+          "required": true,
+          "manual": true,
+          "source_url": "https://github.com/bedovyy/ComfyUI-WD-Timm-Tagger"
+        },
+        {
+          "registry_id": null,
+          "name": "comfyui_controlnet_aux",
+          "version": null,
+          "commit": "e8b689a513c3e6b63edc44066560ca5919c0576e",
+          "required": true,
+          "manual": true,
+          "source_url": "https://github.com/Fannovel16/comfyui_controlnet_aux"
+        },
+        {
+          "registry_id": null,
+          "name": "KreaSeedVarianceEnhancer",
+          "version": null,
+          "commit": "1515d23a5b399a44ccd97482e1105a43937268ae",
+          "required": true,
+          "manual": true,
+          "source_url": "https://github.com/harukimix/KreaSeedVarianceEnhancer"
+        },
+        {
+          "registry_id": null,
+          "name": "LanPaint",
+          "version": null,
+          "commit": "c9c79988f1038bb7699cb23e1709b533bd4e582c",
+          "required": true,
+          "manual": true,
+          "source_url": "https://github.com/scraed/LanPaint"
+        },
+        {
+          "registry_id": null,
+          "name": "rgthree-comfy",
+          "version": null,
+          "commit": "6b76ee6f2c5a007710b5a16f97c94330d6ecc871",
+          "required": true,
+          "manual": true,
+          "source_url": "https://github.com/rgthree/rgthree-comfy"
+        },
+        {
+          "registry_id": null,
+          "name": "SesquiLSR",
+          "version": null,
+          "commit": "befae004248c403f38b76b9f65fd43b901ea3eaa",
+          "required": true,
+          "manual": true,
+          "source_url": "https://github.com/LoganBooker/SesquiLSR"
+        }
+      ],
+      "inputs": [
+        {
+          "source": "Aaalice_example.jpg",
+          "archive": "inputs/67b0dddf8124-Aaalice_example.jpg",
+          "size": 217480,
+          "sha256": "67b0dddf81241123b5c3638a61e3a4385ea9822b0131c795e5a3d53cf1e5726d",
+          "node_ids": [
+            "702",
+            "706",
+            "710",
+            "835",
+            "836",
+            "837",
+            "862",
+            "863",
+            "872",
+            "874",
+            "878",
+            "879",
+            "883",
+            "884",
+            "888",
+            "889",
+            "893",
+            "894",
+            "898",
+            "899",
+            "982",
+            "989",
+            "993",
+            "994"
+          ]
+        }
+      ],
+      "models": [],
+      "repository_path": "workflows/文生图/Aaalice_Workflow/versions/v0.4"
     }
   ],
   "repository_path": "workflows/文生图/Aaalice_Workflow"

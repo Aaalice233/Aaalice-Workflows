@@ -18,7 +18,7 @@
       "registry_id": null,
       "name": "ComfyUI-Aaalice-Nodes",
       "version": null,
-      "commit": "cccc1dfa8ce4b61193656fd6fc6ea27b6edadad4",
+      "commit": "7e996b3e3b5c567d6b7f4eea3111582f75ae75dd",
       "required": true,
       "manual": true,
       "source_url": "https://github.com/Aaalice233/ComfyUI-Aaalice-Nodes"
@@ -63,7 +63,7 @@
       "registry_id": null,
       "name": "comfyui-kjnodes",
       "version": null,
-      "commit": "073efb07419f56cc714e099a82e49fbc23ad9263",
+      "commit": "6ab7e8130e449ed2c0037589bcf84146ceb7fc9c",
       "required": true,
       "manual": true,
       "source_url": "https://github.com/kijai/ComfyUI-KJNodes"

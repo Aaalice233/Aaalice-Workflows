@@ -1454,7 +1454,7 @@
       "package": {
         "url": "https://github.com/Aaalice233/Aaalice-Workflows/releases/download/aaalice-workflow-1gu7uek-v0.8/Aaalice_Workflow-v0.8.zip",
         "size": 321060,
-        "sha256": "ffd0de15d7b11195d7b49952549057e30954fb3bcfbd458b685cc64ab21a18fa"
+        "sha256": "69d9f67a011957d4684d4568b85283a949b973d8bf899a9ba4596608c2c9e926"
       },
       "preview": null,
       "custom_nodes": [
@@ -1471,7 +1471,7 @@
           "registry_id": null,
           "name": "ComfyUI-Aaalice-Nodes",
           "version": null,
-          "commit": "cccc1dfa8ce4b61193656fd6fc6ea27b6edadad4",
+          "commit": "7e996b3e3b5c567d6b7f4eea3111582f75ae75dd",
           "required": true,
           "manual": true,
           "source_url": "https://github.com/Aaalice233/ComfyUI-Aaalice-Nodes"
@@ -1516,7 +1516,7 @@
           "registry_id": null,
           "name": "comfyui-kjnodes",
           "version": null,
-          "commit": "073efb07419f56cc714e099a82e49fbc23ad9263",
+          "commit": "6ab7e8130e449ed2c0037589bcf84146ceb7fc9c",
           "required": true,
           "manual": true,
           "source_url": "https://github.com/kijai/ComfyUI-KJNodes"

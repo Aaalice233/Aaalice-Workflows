@@ -1658,8 +1658,8 @@
           },
           "package": {
             "url": "https://github.com/Aaalice233/Aaalice-Workflows/releases/download/aaalice-workflow-1gu7uek-v0.9/Aaalice_Workflow-v0.9.zip",
-            "size": 322599,
-            "sha256": "76886767a4c6910a8617911a07fa266d5173a51159e7c3495e9a77e9b8e40842"
+            "size": 322600,
+            "sha256": "17ed6472c24e4f53d4f97f1d603b81d487ada5ecb79aa47db55b3ff7a79524ae"
           },
           "preview": null,
           "custom_nodes": [
@@ -1676,7 +1676,7 @@
               "registry_id": null,
               "name": "ComfyUI-Aaalice-Nodes",
               "version": null,
-              "commit": "7b8d76990a79ee6e7e76849cad96a40930910d58",
+              "commit": "3b1b1a4ec0c0b4950e076119367ffe2151a937a1",
               "required": true,
               "manual": true,
               "source_url": "https://github.com/Aaalice233/ComfyUI-Aaalice-Nodes"

@@ -6,6 +6,7 @@
 
 | 版本 | 更新日期 | 工作流文件 | 完整安装包 |
 | --- | --- | --- | --- |
+| v1.0 | 2026-08-16 | [workflow.json](versions/v1.0/workflow.json) | [ZIP](https://github.com/Aaalice233/Aaalice-Workflows/releases/download/aaalice-workflow-1gu7uek-v1.0/Aaalice_Workflow-v1.0.zip) |
 | v0.9 | 2026-08-12 | [workflow.json](versions/v0.9/workflow.json) | [ZIP](https://github.com/Aaalice233/Aaalice-Workflows/releases/download/aaalice-workflow-1gu7uek-v0.9/Aaalice_Workflow-v0.9.zip) |
 | v0.8 | 2026-08-11 | [workflow.json](versions/v0.8/workflow.json) | [ZIP](https://github.com/Aaalice233/Aaalice-Workflows/releases/download/aaalice-workflow-1gu7uek-v0.8/Aaalice_Workflow-v0.8.zip) |
 | v0.7 | 2026-08-10 | [workflow.json](versions/v0.7/workflow.json) | [ZIP](https://github.com/Aaalice233/Aaalice-Workflows/releases/download/aaalice-workflow-1gu7uek-v0.7/Aaalice_Workflow-v0.7.zip) |

@@ -8,8 +8,8 @@
   "tags": [],
   "archived": false,
   "cover": {
-    "url": "https://github.com/Aaalice233/Aaalice-Workflows/releases/download/aaalice-workflow-1gu7uek-v1.1/aaalice-workflow-1gu7uek-v1.1-cover.jpg",
-    "sha256": "8ed029f5dfcc75708a569c77ff6d119a5b8ed7d32815f7ad0793f43b7aa63a36"
+    "url": "https://github.com/Aaalice233/Aaalice-Workflows/releases/download/aaalice-workflow-1gu7uek-v1.2/aaalice-workflow-1gu7uek-v1.2-cover.jpg",
+    "sha256": "e7c897d93d0a0f2cd24350436f26f543e27410b813f9ed5eb3afe5ada1cafc61"
   },
   "versions": [
     {
@@ -2230,6 +2230,222 @@
       ],
       "models": [],
       "repository_path": "workflows/文生图/Aaalice_Workflow/versions/v1.1"
+    },
+    {
+      "version": "1.2",
+      "published_at": "2026-08-17T11:47:41.801000Z",
+      "release_tag": "aaalice-workflow-1gu7uek-v1.2",
+      "changelog": "## ✨ 本次更新\n\n> **⚠️ 重要：本版强烈建议关闭 Nodes 2.0**\n>\n> 当前 Nodes 2.0 存在明显性能问题，本工作流已不再依赖它的图像对比功能。请点击左上角 ComfyUI Logo，关闭 Nodes 2.0 后使用 **Classic 模式**。\n\n### ⚡ 新增 NVIDIA RTX VSR 放大\n\n- 新增 **VSR 放大**流程，适合原图已经比较干净、只想快速提高分辨率并尽量保持原貌的场景。\n- 仅支持兼容的 **NVIDIA RTX 显卡**，无需额外下载放大模型；默认使用 **2 倍放大 + ULTRA 质量**。\n- 可以直接接收普通底图、双采样底图、潜空间放大、脸部细化或 SeedVR2 的结果，也可以手动选择图片。\n- 新增放大前后对比区域，方便直接检查清晰度和细节变化。\n- 开启 VSR 放大时会自动开启对应对比区域，并关闭可能冲突的局部重绘组；关闭 VSR 时会同步关闭对比区域。\n\n### 🎛️ 新增 VSR 侧边栏参数页\n\n- 侧边栏新增 **「🎨VSR放大参数」**页面，可集中调整放大倍数、图像保存和完成通知。\n- 支持设置保存文件名、是否写入工作流与元数据，以及桌面通知、提示音和音量。\n- 默认预设已经同步加入 VSR 参数，载入工作流后可以直接使用。\n\n### 📝 使用说明更清楚\n\n- 补充 **SeedVR2 与 VSR 的选择建议**：需要去噪、修复和纹理增强时优先使用 SeedVR2；更看重速度和原图一致性时优先使用 VSR。\n- 更新工作流内说明，进一步明确 Krea 2 与 Anima 的定位、提示词写法和文生图各阶段的执行关系。\n\n## 🧩 ComfyUI 内核\n\n本版继续基于 **ComfyUI v0.33.1**，与上一版要求一致。\n\n> **秋叶启动器用户：**请确认已切换到上述 ComfyUI 内核版本。如果版本列表中找不到该版本，请打开启动器左下角「设置」，关闭国内镜像相关功能后刷新版本列表；国内镜像的版本更新通常较慢。\n\n## 📦 插件更新\n\n- **ComfyUI-Aaalice-Nodes** 更新至 **v0.18.0**（详见下方专项）\n- 将 **comfyui_queue_sidebar** 更新到最新版\n\n## 🆕 新增插件\n\n- 新增 **ComfyUI-NVIDIA-RTX-VSR-Pro v0.5.0**，用于 NVIDIA RTX 显卡的高速超分辨率放大与清晰化。\n\n## 🎨 ComfyUI-Aaalice-Nodes v0.17.1 → v0.18.0\n\n### 📚 提示词词库\n\n- 分类现在支持真正的多层嵌套，可以按完整路径整理大型词库。\n- 分类管理器新增搜索、折叠、移动、拖拽排序、键盘排序和安全删除，管理大量分类时更顺手。\n- 使用斜杠命名的旧分类会自动迁移为层级结构，并保留原有颜色和词条归属。\n- 旧版 SQLite、ZIP 和 JSON 词库导入后也会自动完成迁移，无需手动重新整理。\n- 按父分类筛选时会同时包含所有下级分类，查找词条更符合直觉。\n\n### 🖼️ Booru 画廊\n\n- 修复 Danbooru 双标签随机搜索，随机结果现在可以覆盖更完整的历史范围。\n- 避免结果计数超时、提前终止或深页查询导致随机搜索失败，双标签随机浏览更加稳定。\n\n## 🛠️ ComfyUI-Aaalice-Workflow-Hub v1.2.6（安装工具）\n\n自上一版工作流发布以来，本次没有功能性变化。\n\n建议通过 ComfyUI-Manager 或启动器把 Workflow Hub 更新到最新版，确保使用当前版本。\n\n## 🔤 ComfyUI-Autocomplete-Aaalice v1.13.6\n\n本次无变化，继续使用 **v1.13.6**。\n\n## ⚠️ 重要提醒\n\n> 新版 ComfyUI-Aaalice-Nodes 和旧版 ComfyUI-Danbooru-Gallery 可能存在一些神奇的冲突，记得卸载旧版插件！\n\n## 💬 交流与安装\n\n- Discord 服务器：<https://discord.gg/R48n6GwXzD>\n- 安装教程（需先加入服务器）：<https://discord.com/channels/1349298998988771359/1374368542417223720>",
+      "comfyui": {
+        "minimum": "0.33.1",
+        "maximum": "0.33.1"
+      },
+      "package": {
+        "url": "https://github.com/Aaalice233/Aaalice-Workflows/releases/download/aaalice-workflow-1gu7uek-v1.2/Aaalice_Workflow-v1.2.zip",
+        "size": 1795502,
+        "sha256": "3c081112119c65da1d83c8134d3ac48c2ca5eeaae843ee5fed3028a0893daab2"
+      },
+      "preview": {
+        "url": "https://github.com/Aaalice233/Aaalice-Workflows/releases/download/aaalice-workflow-1gu7uek-v1.2/aaalice-workflow-1gu7uek-v1.2-cover.jpg",
+        "sha256": "e7c897d93d0a0f2cd24350436f26f543e27410b813f9ed5eb3afe5ada1cafc61"
+      },
+      "custom_nodes": [
+        {
+          "registry_id": null,
+          "name": "cg-image-filter",
+          "version": null,
+          "commit": "694f8444e67f44d601861c5604bb3e55c35daf9d",
+          "required": true,
+          "manual": true,
+          "source_url": "https://github.com/chrisgoringe/cg-image-filter"
+        },
+        {
+          "registry_id": null,
+          "name": "ComfyUI-Aaalice-Nodes",
+          "version": null,
+          "commit": "0c2fad5bc67f230cce75ce5c7a8304e1ee19617e",
+          "required": true,
+          "manual": true,
+          "source_url": "https://github.com/Aaalice233/ComfyUI-Aaalice-Nodes"
+        },
+        {
+          "registry_id": null,
+          "name": "ComfyUI-Anima-2.9B-loraPatch",
+          "version": null,
+          "commit": "530f790a0185d2ba4ef59e709c56d1d1deb74bc3",
+          "required": true,
+          "manual": true,
+          "source_url": "https://github.com/sparklingcoffee777/ComfyUI-Anima-2.9B-loraPatch"
+        },
+        {
+          "registry_id": null,
+          "name": "ComfyUI-Autocomplete-Aaalice",
+          "version": null,
+          "commit": "2d9507b533f30f63329d7bdf539162a10243bf74",
+          "required": true,
+          "manual": true,
+          "source_url": "https://github.com/Aaalice233/ComfyUI-Autocomplete-Aaalice"
+        },
+        {
+          "registry_id": null,
+          "name": "ComfyUI-Forbidden-Vision",
+          "version": null,
+          "commit": "b474d579c7749c8046d267c75512484120626b6d",
+          "required": true,
+          "manual": true,
+          "source_url": "https://github.com/luxdelux7/ComfyUI-Forbidden-Vision"
+        },
+        {
+          "registry_id": null,
+          "name": "ComfyUI-Impact-Pack",
+          "version": null,
+          "commit": "429d0159ad429e64d2b3916e6e7be9c22d025c3c",
+          "required": true,
+          "manual": true,
+          "source_url": "https://github.com/ltdrdata/ComfyUI-Impact-Pack"
+        },
+        {
+          "registry_id": null,
+          "name": "ComfyUI-Inpaint-CropAndStitch",
+          "version": null,
+          "commit": "2dfaf6c9689f16315a428ce3df06983b22a163c0",
+          "required": true,
+          "manual": true,
+          "source_url": "https://github.com/lquesada/ComfyUI-Inpaint-CropAndStitch"
+        },
+        {
+          "registry_id": null,
+          "name": "comfyui-kjnodes",
+          "version": null,
+          "commit": "3f20054214fec9f9234fd3841ae6f1e4287948f6",
+          "required": true,
+          "manual": true,
+          "source_url": "https://github.com/kijai/ComfyUI-KJNodes"
+        },
+        {
+          "registry_id": null,
+          "name": "ComfyUI-Lora-Manager",
+          "version": null,
+          "commit": "d38a3d091db24dd471980177f481c1c9b8ad3527",
+          "required": true,
+          "manual": true,
+          "source_url": "https://github.com/willmiao/ComfyUI-Lora-Manager"
+        },
+        {
+          "registry_id": null,
+          "name": "ComfyUI-NVIDIA-RTX-VSR-Pro",
+          "version": null,
+          "commit": "49733df7a02446cf1c1fac4af6f6181682522303",
+          "required": true,
+          "manual": true,
+          "source_url": "https://github.com/whmc76/ComfyUI-NVIDIA-RTX-VSR-Pro"
+        },
+        {
+          "registry_id": null,
+          "name": "ComfyUI-Prompt-Assistant",
+          "version": null,
+          "commit": "e0587e6d50939ae05e92922f1ed2fce008c7f622",
+          "required": true,
+          "manual": true,
+          "source_url": "https://github.com/yawiii/ComfyUI-Prompt-Assistant"
+        },
+        {
+          "registry_id": null,
+          "name": "ComfyUI-WD-Timm-Tagger",
+          "version": null,
+          "commit": "db10c8dc94143c3a75782f4e3e5d29c943ed673b",
+          "required": true,
+          "manual": true,
+          "source_url": "https://github.com/bedovyy/ComfyUI-WD-Timm-Tagger"
+        },
+        {
+          "registry_id": null,
+          "name": "comfyui_queue_sidebar",
+          "version": null,
+          "commit": "bb53a258f7d507d8fa5243c5b1b5516e39f9dabc",
+          "required": true,
+          "manual": true,
+          "source_url": "https://github.com/Zhen-Bo/comfyui_queue_sidebar"
+        },
+        {
+          "registry_id": null,
+          "name": "KreaSeedVarianceEnhancer",
+          "version": null,
+          "commit": "1515d23a5b399a44ccd97482e1105a43937268ae",
+          "required": true,
+          "manual": true,
+          "source_url": "https://github.com/harukimix/KreaSeedVarianceEnhancer"
+        },
+        {
+          "registry_id": null,
+          "name": "LanPaint",
+          "version": null,
+          "commit": "32cf848e93971da380d868936e007f5611218bee",
+          "required": true,
+          "manual": true,
+          "source_url": "https://github.com/scraed/LanPaint"
+        },
+        {
+          "registry_id": null,
+          "name": "rgthree-comfy",
+          "version": null,
+          "commit": "6b76ee6f2c5a007710b5a16f97c94330d6ecc871",
+          "required": true,
+          "manual": true,
+          "source_url": "https://github.com/rgthree/rgthree-comfy"
+        },
+        {
+          "registry_id": null,
+          "name": "SesquiLSR",
+          "version": null,
+          "commit": "befae004248c403f38b76b9f65fd43b901ea3eaa",
+          "required": true,
+          "manual": true,
+          "source_url": "https://github.com/LoganBooker/SesquiLSR"
+        }
+      ],
+      "inputs": [
+        {
+          "source": "Aaalice_example.jpg",
+          "archive": "inputs/67b0dddf8124-Aaalice_example.jpg",
+          "size": 217480,
+          "sha256": "67b0dddf81241123b5c3638a61e3a4385ea9822b0131c795e5a3d53cf1e5726d",
+          "node_ids": [
+            "1213",
+            "1214",
+            "1266",
+            "1270",
+            "1271",
+            "1273",
+            "1289",
+            "1340",
+            "1341",
+            "1400",
+            "1423",
+            "1425",
+            "1436",
+            "1440",
+            "1442",
+            "1443",
+            "702",
+            "710",
+            "835",
+            "837",
+            "862",
+            "863",
+            "872",
+            "874",
+            "878",
+            "879",
+            "893",
+            "894",
+            "898",
+            "899"
+          ]
+        }
+      ],
+      "models": [],
+      "repository_path": "workflows/文生图/Aaalice_Workflow/versions/v1.2"
     }
   ],
   "repository_path": "workflows/文生图/Aaalice_Workflow"

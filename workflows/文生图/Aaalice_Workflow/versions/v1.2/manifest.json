@@ -18,7 +18,7 @@
       "registry_id": null,
       "name": "ComfyUI-Aaalice-Nodes",
       "version": null,
-      "commit": "0c2fad5bc67f230cce75ce5c7a8304e1ee19617e",
+      "commit": "6fd933d8a2ac0e6ab72c71b2c71c4cb6960a8d29",
       "required": true,
       "manual": true,
       "source_url": "https://github.com/Aaalice233/ComfyUI-Aaalice-Nodes"
@@ -27,7 +27,7 @@
       "registry_id": null,
       "name": "ComfyUI-Anima-2.9B-loraPatch",
       "version": null,
-      "commit": "530f790a0185d2ba4ef59e709c56d1d1deb74bc3",
+      "commit": "045f240210b52037e6dd3d8328d776463fe54b96",
       "required": true,
       "manual": true,
       "source_url": "https://github.com/sparklingcoffee777/ComfyUI-Anima-2.9B-loraPatch"
@@ -81,7 +81,7 @@
       "registry_id": null,
       "name": "ComfyUI-Lora-Manager",
       "version": null,
-      "commit": "d38a3d091db24dd471980177f481c1c9b8ad3527",
+      "commit": "846206d958132f9094792e4b9b51c703984c1190",
       "required": true,
       "manual": true,
       "source_url": "https://github.com/willmiao/ComfyUI-Lora-Manager"

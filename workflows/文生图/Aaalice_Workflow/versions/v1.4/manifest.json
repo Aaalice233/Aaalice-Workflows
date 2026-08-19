@@ -1,0 +1,203 @@
+{
+  "schema_version": 1,
+  "workflow_id": "aaalice-workflow-1gu7uek",
+  "name": "Aaalice_Workflow",
+  "version": "1.4",
+  "filename_separator": "-",
+  "custom_nodes": [
+    {
+      "registry_id": null,
+      "name": "cg-image-filter",
+      "version": null,
+      "commit": "694f8444e67f44d601861c5604bb3e55c35daf9d",
+      "required": true,
+      "manual": true,
+      "source_url": "https://github.com/chrisgoringe/cg-image-filter"
+    },
+    {
+      "registry_id": null,
+      "name": "ComfyUI-Aaalice-Nodes",
+      "version": null,
+      "commit": "680cf7864b2b1b6d12157521f780d454566e72a0",
+      "required": true,
+      "manual": true,
+      "source_url": "https://github.com/Aaalice233/ComfyUI-Aaalice-Nodes"
+    },
+    {
+      "registry_id": null,
+      "name": "ComfyUI-Anima-2.9B-loraPatch",
+      "version": null,
+      "commit": "045f240210b52037e6dd3d8328d776463fe54b96",
+      "required": true,
+      "manual": true,
+      "source_url": "https://github.com/sparklingcoffee777/ComfyUI-Anima-2.9B-loraPatch"
+    },
+    {
+      "registry_id": null,
+      "name": "ComfyUI-Autocomplete-Aaalice",
+      "version": null,
+      "commit": "2d9507b533f30f63329d7bdf539162a10243bf74",
+      "required": true,
+      "manual": true,
+      "source_url": "https://github.com/Aaalice233/ComfyUI-Autocomplete-Aaalice"
+    },
+    {
+      "registry_id": null,
+      "name": "ComfyUI-Forbidden-Vision",
+      "version": null,
+      "commit": "b474d579c7749c8046d267c75512484120626b6d",
+      "required": true,
+      "manual": true,
+      "source_url": "https://github.com/luxdelux7/ComfyUI-Forbidden-Vision"
+    },
+    {
+      "registry_id": null,
+      "name": "ComfyUI-Impact-Pack",
+      "version": null,
+      "commit": "429d0159ad429e64d2b3916e6e7be9c22d025c3c",
+      "required": true,
+      "manual": true,
+      "source_url": "https://github.com/ltdrdata/ComfyUI-Impact-Pack"
+    },
+    {
+      "registry_id": null,
+      "name": "ComfyUI-Inpaint-CropAndStitch",
+      "version": null,
+      "commit": "2dfaf6c9689f16315a428ce3df06983b22a163c0",
+      "required": true,
+      "manual": true,
+      "source_url": "https://github.com/lquesada/ComfyUI-Inpaint-CropAndStitch"
+    },
+    {
+      "registry_id": null,
+      "name": "comfyui-kjnodes",
+      "version": null,
+      "commit": "3f20054214fec9f9234fd3841ae6f1e4287948f6",
+      "required": true,
+      "manual": true,
+      "source_url": "https://github.com/kijai/ComfyUI-KJNodes"
+    },
+    {
+      "registry_id": null,
+      "name": "ComfyUI-Lora-Manager",
+      "version": null,
+      "commit": "b0c7a1baae57b773f88e69a79d51931266dd9c22",
+      "required": true,
+      "manual": true,
+      "source_url": "https://github.com/willmiao/ComfyUI-Lora-Manager"
+    },
+    {
+      "registry_id": null,
+      "name": "ComfyUI-NVIDIA-RTX-VSR-Pro",
+      "version": null,
+      "commit": "49733df7a02446cf1c1fac4af6f6181682522303",
+      "required": true,
+      "manual": true,
+      "source_url": "https://github.com/whmc76/ComfyUI-NVIDIA-RTX-VSR-Pro"
+    },
+    {
+      "registry_id": null,
+      "name": "ComfyUI-Prompt-Assistant",
+      "version": null,
+      "commit": "e0587e6d50939ae05e92922f1ed2fce008c7f622",
+      "required": true,
+      "manual": true,
+      "source_url": "https://github.com/yawiii/ComfyUI-Prompt-Assistant"
+    },
+    {
+      "registry_id": null,
+      "name": "ComfyUI-WD-Timm-Tagger",
+      "version": null,
+      "commit": "db10c8dc94143c3a75782f4e3e5d29c943ed673b",
+      "required": true,
+      "manual": true,
+      "source_url": "https://github.com/bedovyy/ComfyUI-WD-Timm-Tagger"
+    },
+    {
+      "registry_id": null,
+      "name": "comfyui_queue_sidebar",
+      "version": null,
+      "commit": "bb53a258f7d507d8fa5243c5b1b5516e39f9dabc",
+      "required": true,
+      "manual": true,
+      "source_url": "https://github.com/Zhen-Bo/comfyui_queue_sidebar"
+    },
+    {
+      "registry_id": null,
+      "name": "KreaSeedVarianceEnhancer",
+      "version": null,
+      "commit": "1515d23a5b399a44ccd97482e1105a43937268ae",
+      "required": true,
+      "manual": true,
+      "source_url": "https://github.com/harukimix/KreaSeedVarianceEnhancer"
+    },
+    {
+      "registry_id": null,
+      "name": "LanPaint",
+      "version": null,
+      "commit": "32cf848e93971da380d868936e007f5611218bee",
+      "required": true,
+      "manual": true,
+      "source_url": "https://github.com/scraed/LanPaint"
+    },
+    {
+      "registry_id": null,
+      "name": "rgthree-comfy",
+      "version": null,
+      "commit": "d92cad68a6e92a1c5d4032d3ac53f79ea44b08e4",
+      "required": true,
+      "manual": true,
+      "source_url": "https://github.com/rgthree/rgthree-comfy"
+    },
+    {
+      "registry_id": null,
+      "name": "SesquiLSR",
+      "version": null,
+      "commit": "befae004248c403f38b76b9f65fd43b901ea3eaa",
+      "required": true,
+      "manual": true,
+      "source_url": "https://github.com/LoganBooker/SesquiLSR"
+    }
+  ],
+  "models": [],
+  "inputs": [
+    {
+      "source": "Aaalice_example.jpg",
+      "archive": "inputs/67b0dddf8124-Aaalice_example.jpg",
+      "sha256": "67b0dddf81241123b5c3638a61e3a4385ea9822b0131c795e5a3d53cf1e5726d",
+      "size": 217480,
+      "node_ids": [
+        "1213",
+        "1214",
+        "1266",
+        "1270",
+        "1271",
+        "1273",
+        "1289",
+        "1340",
+        "1341",
+        "1400",
+        "1423",
+        "1425",
+        "1436",
+        "1440",
+        "1442",
+        "1443",
+        "702",
+        "710",
+        "835",
+        "837",
+        "862",
+        "863",
+        "872",
+        "874",
+        "878",
+        "879",
+        "893",
+        "894",
+        "898",
+        "899"
+      ]
+    }
+  ]
+}

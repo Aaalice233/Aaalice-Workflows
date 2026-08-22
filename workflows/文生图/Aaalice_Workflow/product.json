@@ -2887,8 +2887,8 @@
       },
       "package": {
         "url": "https://github.com/Aaalice233/Aaalice-Workflows/releases/download/aaalice-workflow-1gu7uek-v1.5/Aaalice_Workflow-v1.5.zip",
-        "size": 377622,
-        "sha256": "9a4377ad61e2a255bcd7c2cbbb4fc4205583aea22990fbc400841a29e916e59d"
+        "size": 377625,
+        "sha256": "e9f0401a72549c14224444b2857acfd29beef4734af1532de29bbdbbc85a03ae"
       },
       "preview": null,
       "custom_nodes": [
@@ -2923,7 +2923,7 @@
           "registry_id": null,
           "name": "ComfyUI-Autocomplete-Aaalice",
           "version": null,
-          "commit": "1fd75178d1cef7ec971bec9b234ac05b516d7a6e",
+          "commit": "c5c6c1ea00f6d30029f6fed822c7904c071d5686",
           "required": true,
           "manual": true,
           "source_url": "https://github.com/Aaalice233/ComfyUI-Autocomplete-Aaalice"

@@ -36,7 +36,7 @@
       "registry_id": null,
       "name": "ComfyUI-Autocomplete-Aaalice",
       "version": null,
-      "commit": "1fd75178d1cef7ec971bec9b234ac05b516d7a6e",
+      "commit": "c5c6c1ea00f6d30029f6fed822c7904c071d5686",
       "required": true,
       "manual": true,
       "source_url": "https://github.com/Aaalice233/ComfyUI-Autocomplete-Aaalice"

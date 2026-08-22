@@ -2887,8 +2887,8 @@
       },
       "package": {
         "url": "https://github.com/Aaalice233/Aaalice-Workflows/releases/download/aaalice-workflow-1gu7uek-v1.5/Aaalice_Workflow-v1.5.zip",
-        "size": 377620,
-        "sha256": "a6c7fa77b3185eabbb4686e5635f749a1405f9a935652f4840aba58b008fdffb"
+        "size": 377622,
+        "sha256": "9a4377ad61e2a255bcd7c2cbbb4fc4205583aea22990fbc400841a29e916e59d"
       },
       "preview": null,
       "custom_nodes": [
@@ -2896,7 +2896,7 @@
           "registry_id": null,
           "name": "ComfyUI-Aaalice-Image-Picker",
           "version": null,
-          "commit": "0dc2518ff1fecc99366db8abd7f5c75569f5626d",
+          "commit": "af54da0837c4a69c03aad5a79e38708419475731",
           "required": true,
           "manual": true,
           "source_url": "https://github.com/Aaalice233/ComfyUI-Aaalice-Image-Picker"
@@ -2950,7 +2950,7 @@
           "registry_id": null,
           "name": "ComfyUI-Inpaint-CropAndStitch",
           "version": null,
-          "commit": "2dfaf6c9689f16315a428ce3df06983b22a163c0",
+          "commit": "606e2b4fd83fc44e1f0b403e1f076501db8c3749",
           "required": true,
           "manual": true,
           "source_url": "https://github.com/lquesada/ComfyUI-Inpaint-CropAndStitch"
